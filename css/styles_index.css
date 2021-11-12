@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Zen+Old+Mincho&display=swap');
+
+
+body{
+    
+    font-family: 'Zen Old Mincho', serif;
+    background-color: rgb(245, 255, 230);
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+h1{
+   font-size: 30px;
+   text-align: center;
+   color: blue;
+   font-style: italic; 
+}
+
+h2{
+    font-size: 22px;
+    color: rgb(66, 35, 170);
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+header{
+    background-color:rgb(185, 221, 201);
+    width: 960px;
+    padding: 30px 30px 30px 30px;
+    border: dotted 3px black;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header div{
+    text-align: center;
+}
+
+.ancora{
+    text-align: right;
+}
+
+section{
+    background-color: rgb(185, 221, 201);
+    width: 960px;
+    padding: 30px 30px 30px 30px;
+    border: dotted 3px black;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;   
+}
+
+nav{
+    background-color: rgb(185, 221, 201);
+    width: 960px;
+    padding: 20px 30px 20px 30px;
+    border: dotted 3px black;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+.dadosPessoais{
+    display: inline-block;
+}
+.dados{
+    display: inline-block;
+    margin: 20px 20px;
+    text-align: left;
+}
+
+.dados ul{
+    list-style: none;
+}
+
+
+article{
+    background-color: rgb(185, 221, 201);
+    width: 960px;
+    padding: 30px 30px 30px 30px;
+    border: dotted 3px black;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+.empresas{
+    text-align: left;
+}
+
+footer{
+    background-color: rgb(185, 221, 201);
+    width: 960px;
+    padding: 30px 30px 30px 30px;
+    border: dotted 3px black;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+/* @media (min-width: 460px){
+      header{
+          display: flex;
+          flex-direction: column;
+      }
+
+} */
+

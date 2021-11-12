@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Zen+Old+Mincho&display=swap');
+
+
+body {
+    background-color: rgb(245, 255, 230);
+    text-align: center;
+    font-family: 'Zen Old Mincho', serif;
+    color: rgb(7, 7, 7);
+    font-weight: bold;    
+}
+
+
+h1{
+    margin: 5px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
+    font-size: 30px;
+    text-align: center;
+    color: blue;
+    font-style: italic; 
+}
+
+h2{
+    font-size: 22px;
+    color: rgb(66, 35, 170);
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+
+header {
+    height:100px;
+    line-height: 20px;
+    width: 960px;
+    background-color: rgb(185, 221, 201);
+    margin: 0px auto;
+    font-size:16px;
+}
+header div{
+    text-align: left;
+    margin: 10px 0px 0px 0px;
+}
+
+nav {
+    width: 300px;
+    display: inline-block;
+    height:600px;
+    vertical-align:top;
+    background-color: rgb(185, 221, 201);
+    margin: 15px auto;
+    font-size:22px;
+}
+
+.navegacao{
+    display: flex;
+    width: 250px;
+    height: 160px;
+    margin: 30px 30px 30px 30px;
+    text-align: center;
+    flex-direction: row;
+    flex:1;
+}
+
+.navegacao ul li{
+    text-align: left;
+    list-style: none;    
+}
+
+.imagem1{
+    margin:auto;
+}
+
+section {
+    width:660px;
+    display: inline-block;
+    height:600px;
+    margin-left: -4px;
+    line-height: 600px;
+    background-color:  rgb(185, 221, 201);
+    margin: 15px auto;
+    font-size:22px;
+    flex: 1;
+}
+
+.navegacao2 {
+    background-image: url(../imagens/formiga.jpg);
+    display: flex;
+    width: 600px;
+    height: 550px;
+    margin: 10px 10px 10px 10px;
+    flex-direction: row;
+    flex:1;
+    border: 2px dotted black;
+}
+
+.navegacao2 ul li{
+    text-align: center;
+    list-style: none;
+    margin-top: -230px;
+    margin-bottom: -400px;
+    margin-left: 50px;
+}
+
+section div {
+    display: block;
+    flex-direction: column;
+    margin: 0px;
+    align-content: space-around;
+
+}
+
+footer {
+    height:70px;
+    line-height: 70px;
+    width: 960px;
+    background-color: rgb(185, 221, 201);
+    margin: 15px auto;
+    font-size:16px;
+}

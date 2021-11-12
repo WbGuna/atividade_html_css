@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Zen+Old+Mincho&display=swap');
+
+body{
+    
+    font-family: 'Zen Old Mincho', serif;
+    background-color: rgb(245, 255, 230);
+}
+
+
+h1{
+   font-size: 30px;
+   text-align: center;
+   color: blue;
+   font-style: italic; 
+}
+
+h2{
+    font-size: 22px;
+    color: rgb(66, 35, 170);
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.menu{
+    text-align: left;
+}
+
+.formulario{
+    border: 2px solid rgb(15, 15, 15);
+    width: 30%;
+    margin: 15px auto;
+}
+
+.nomeRobo{
+    text-align: left;
+}
+
+.robo{
+    text-align: left;
+}
+
+form{
+    margin: 15px 15px;
+}
+
+
+input{
+    background-color: rgb(198, 214, 165);
+}
+
+input:focus{
+    background-color: cornflowerblue;
+}
+
+
+button:hover{
+    background-color: turquoise;
+}
+
+textarea{
+    resize: horizontal;
+    width: 300px;
+}
+
+footer{
+    text-align: center;
+}

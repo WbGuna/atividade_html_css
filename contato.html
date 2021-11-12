@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato</title>
+        <link rel="stylesheet" href="./css/styles_contato.css">
+        <link rel="shortcut icon" href="favicon.ico">
+    </head>
+<body>
+    <header>
+        <h1>
+            Formulario de contato
+        </h1>
+        <div class="menu">
+            <a class="btn_padrao" href="./index.html" > Currículo</a>
+            ||
+            <a class="btn_padrao" href="./hobbies.html" >Hobbies</a>
+        </div>
+    </header>
+    <hr>
+    <section>
+        <div class="formulario">
+            <form>
+                <input type="text" placeholder="Nome Completo"  name="Nome Sobrenome" value="" required/>
+                <label for="Nome Sobrenome">Insira seu nome completo</label>
+                <br>
+                <br>
+                <input type="email" placeholder="email@email.com"   name="email" value="" required/>
+                <label for="email"> Coloque um email valido</label>
+                <br>
+                <br>  
+        
+                <label>Qual seu interesse</label>
+                <select name="profissão">
+                    <option value="">Gostaria...</option>
+                    <option value="web">Projeto web</option>
+                    <option value="mobile">Projeto mobile</option>
+                    <option value="eletrico">Projeto elétrico</option>
+                    <option value="robo">Programação de robô</option>
+                    <option value="iot">Programação IOT</option>
+                </select>   
+                <br>
+                <br>        
+                <input type="radio" id="pessoal" name="pesquisa" value="pessoal">
+                <label for="pessoal">Pessoal</label>
+                <input type="radio" id="industrial" name="pesquisa" value="industrial">
+                <label for="industrial">Industrial</label>
+                <input type="radio" id="não responde" name="pesquisa" value="não responde">
+                <label for="não responde">Prefiro não responder</label>
+                <br>
+                <br>
+        
+                <p class="nomeRobo"><strong style="color: blue;">Quais robôs você conhece:</strong></p>
+                <div class="robo">
+                    Fanuc: <input type="checkbox" name="hobbies" value="Fanuc"> <br/>
+                    Kuka: <input type="checkbox" name="hobbies" value="Kuka"> <br/>
+                    Staubli: <input type="checkbox" name="hobbies" value="Staubli"> <br/>
+                    Mitsubishi: <input type="checkbox" name="hobbies" value="Mitsubishi"> <br/>
+                    ABB: <input type="checkbox" name="hobbies" value="ABB"> <br/>
+                    Dalca: <input type="checkbox" name="hobbies" value="Dalca"> <br/>
+                    MKE: <input type="checkbox" name="hobbies" value="MKE">
+                </div>
+                
+                <br>
+                <br>
+                <textarea type="text" placeholder="Deixe seu comentário comentario"  name="Faça um comentario" value="" required></textarea>
+                <br>
+        
+                <button type="submit">Enviar</button>
+                <button type="reset">Excluir</button>
+            </form>
+        </div>
+    </section>
+    
+    
+    <footer>
+        Todos os direitos reservados - WB
+    </footer>
+</body>
+</html>
